@@ -1,0 +1,25 @@
+{
+  "name": "inspection",
+  "version": "1.0.0",
+  "description": "A javascript object inspector.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-echigbo/inspection.git"
+  },
+  "keywords": [
+    "inspect",
+    "object",
+    "function",
+    "method"
+  ],
+  "author": "Emmanuel Chigbo <chigboemmanuel@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-echigbo/inspection/issues"
+  },
+  "homepage": "https://github.com/andela-echigbo/inspection#readme"
+}
