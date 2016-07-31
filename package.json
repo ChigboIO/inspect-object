@@ -4,7 +4,8 @@
   "description": "A javascript object inspector.",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./__test__/**/*.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/andela-echigbo/inspection/issues"
   },
-  "homepage": "https://github.com/andela-echigbo/inspection#readme"
+  "homepage": "https://github.com/andela-echigbo/inspection#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "mocha": "^2.5.3"
+  }
 }
