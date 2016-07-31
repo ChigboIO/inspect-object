@@ -1,16 +1,16 @@
-# Inspection
+# inspect-object
 **Inspection** is a node module that checks and returns all the available `functions` and `properties` of an object.
 
 ### Installation
-To install **inspection** in your node/javascript application, run
+To install **inspect-object** in your node/javascript application, run
 
-  npm install --save-dev inspection
+  npm install --save-dev inspect-object
 
-in your terminal. Note that the `--save-dev` flag is only needed if you want to add **inspection** as a development dependency to your *package.json* file.
+in your terminal. Note that the `--save-dev` flag is only needed if you want to add **inspect-object** as a development dependency to your *package.json* file.
 
 ### Usage
 ```javascript
-var Inspector = require('inspection');
+var Inspector = require('inspect-object');
 
 // `obj` is some object to inspect
 console.log(Inspector.functions(obj)) // logs all the function attributes of 'obj' to the console
