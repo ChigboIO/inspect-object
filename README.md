@@ -1,4 +1,6 @@
-# inspect-object
+![#inspect-object](title-image.png?raw=true "Inspect Object")
+
+
 **Inspect-Object** is a node module that checks and returns all the available `functions` and `properties` of an object.
 
 ### Installation
